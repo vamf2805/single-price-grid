@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Karla, sans-serif;
+    font-size:  16px;
+}
+
+.single-price{
+    background-color:hsl(204, 43%, 93%);
+    width: 100vw;
+    height: 120vh;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    background-color: white;
+    width: 80vw;
+    border-radius: 2vh;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.row{
+    display: flex;
+    flex-flow: row;
+}
+
+@media (max-width: 375px){
+    .row{ 
+        flex-flow: wrap;
+    }
+    .monthly-subscription{
+        width: 100% !important;
+        border-radius: 0px !important;
+    }
+    .why-us{
+        width: 100% !important;
+        border-radius: 0 0 2vh 2vh !important;
+    }
+}
+
+.single-section{
+    padding: 4%;
+}
+
+/* First section*/
+h1{
+    color: hsl(179, 62%, 43%);
+    padding: 2vh;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h3{
+    color: hsl(71, 73%, 54%);
+    padding: 2vh;
+}
+
+.our-community-p{
+    color: hsl(218, 22%, 67%);
+    padding: 2vh;
+}
+
+/* Second section*/
+
+.monthly-subscription{
+    color: white;
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    border-radius: 0 0 0 2vh;
+}
+
+.monthly-subscription-info{
+    padding: 2vh;
+}
+
+.monthly-subscription-price{
+   font-size: xx-large;
+   font-weight: 700;
+}
+
+.monthly-subscription-price span{
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+}
+
+.monthly-subscription-p{
+    padding: 4vh 0;
+}
+
+button{
+    color: white;
+    background-color:hsl(71, 73%, 54%);
+    width: 100%;
+    padding: 4%;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+    font-size: 22px;
+    padding: 2vh;
+}
+
+/*Third section*/
+.why-us{
+    color: white;
+    background-color: hsl(179, 60%, 49%);
+    width: 50%;
+    border-radius: 0 0 2vh 0;
+}
+
+ul{
+    padding: 2vh;
+    line-height: 4vh;
+}
+
+ul li{
+    list-style: none;
+    color: hsl(204, 43%, 93%);
+}
